@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfólio | Mack AI</title>
+  <!-- Link para o seu arquivo de estilo principal -->
+  <link rel="stylesheet" href="css/portfolio.css" />
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Mack AI</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="portfolio.html" class="active">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Seção Principal do Portfólio -->
+  <main class="portfolio-main">
+    <div class="portfolio-container">
+      <!-- Título da seção -->
+      <h1 class="portfolio-title">Portfólio MACK AI</h1>
+
+      <!-- Barra de filtros e pesquisa -->
+      <div class="portfolio-controls">
+        <!-- Classificar por -->
+        <div class="classification-container">
+          <label for="classification">Classificar por:</label>
+          <button class="classification-btn active">Projetos</button>
+          <button class="classification-btn">Alunos</button>
+        </div>
+
+        <!-- Barra de pesquisa -->
+        <div class="search-container">
+          <input 
+            type="text" 
+            class="portfolio-search" 
+            placeholder="Search"
+            aria-label="Buscar projetos" 
+          />
+        </div>
+      </div>
+
+      <!-- Grade de cards do portfólio -->
+      <div class="portfolio-grid">
+        <!-- Card destacado (exemplo real) -->
+        <div class="portfolio-card featured">
+          <!-- Ajuste o caminho da imagem conforme o seu projeto -->
+          <img src="imagens/projeto_colegio.jpg" alt="Projeto Colégio" />
+          <h2>Projeto Colégio</h2>
+          <button class="btn project-btn">Ver Projeto</button>
+        </div>
+
+        <!-- Demais cards como placeholders (ou cartões reais) -->
+        <div class="portfolio-card placeholder"></div>
+        <div class="portfolio-card placeholder"></div>
+        <div class="portfolio-card placeholder"></div>
+        <div class="portfolio-card placeholder"></div>
+        <div class="portfolio-card placeholder"></div>
+        <div class="portfolio-card placeholder"></div>
+        <div class="portfolio-card placeholder"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="portfolio-footer">
+    <p>© MACK AI | Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
